@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --primary: rgb(65, 105, 72);
+  --text: #fff;
+  --secondary: rgb(112, 153, 120);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  padding: 30px;
+  background-color: var(--primary);
+  width: 100vw;
+  text-align: center;
+  color: var(--text)
+}
+

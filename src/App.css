@@ -1,0 +1,64 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(168, 202, 184);
+  color: var(--text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 1.5rem;
+}
+
+.timer-container {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px
+}
+
+span[id='time-left'] {
+  background-color: var(--secondary);
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  background-color: var(--secondary);
+  color: var(--text);
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 10px;
+  transition: background-color 0.1s;
+}
+
+.buttons {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  font-size: 1.2rem;
+  width: 80px;
+} 
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+button:active {
+  filter: brightness(1.2);
+  transform: scale(1);
+}
+
